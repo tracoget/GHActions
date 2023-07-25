@@ -3,8 +3,8 @@ on: workflow_dispatch
 jobs:
   first-job: 
     runs-on: unbuntu-latest
-      steps:
+    steps:
       - name: Print salutation
-      run: echo "Salutaion fellas !"
+        run: echo "Salutaion fellas !"
       - name: Parting shots
-      run: echo "Se ya' later aligator"
+        run: echo "Se ya' later aligator"
