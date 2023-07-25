@@ -1,7 +1,7 @@
 name: First Actions Workflow
 on: workflow_dispatch
 jobs:
-  first-job: 
+  first_job: 
     runs-on: unbuntu-latest
     steps:
     - name: Print salutation
