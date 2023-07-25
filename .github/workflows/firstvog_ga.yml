@@ -1,4 +1,4 @@
-name: First Workflow
+name: First VOG Workflow
 on: workflow_dispatch
 jobs:
   first-job:
